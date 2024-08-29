@@ -5,7 +5,7 @@ from tensorflow.keras.models import load_model
 from sklearn.preprocessing import StandardScaler
 
 # Load your trained model
-model = load_model(import streamlit as st
+model = load_model(import streamlit as st)
 import numpy as np
 import pandas as pd
 from tensorflow.keras.models import load_model
