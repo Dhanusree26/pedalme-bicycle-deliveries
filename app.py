@@ -39,13 +39,7 @@ if st.button('Predict Demand'):
     prediction = model.predict(input_scaled)
     st.write(f'Predicted Demand: {prediction[0][0]:.2f}')
 
-# Add an optional section to show instructions or notes
-st.markdown("""
-### Notes:
-- Ensure you input reasonable values for each feature.
-- The model predicts based on the features provided; adjustments may be required for different feature ranges.
-""")
-')
+# Add an optional section to show instructions or note
 
 # Initialize the scaler (replace this with your actual scaler if needed)
 scaler = StandardScaler()
